@@ -63,11 +63,41 @@ main {
 }
 
 main .main-logo {
-    width: 530px;
+    width: 400px;
     margin: 0 auto;
     margin-bottom: 35px;
 }
 
 main .main-logo img {
-    width: 400px;
+    width: 272px;
+}
+
+main  .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #5f6367;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main .main-input input {
+    width: 450px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #171717;
+    background-color: #303134;
+    border: 1px solid rgba(223,225,229,0);
 }
